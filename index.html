@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone hunter</title>
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1 class="container text-center ">
+            Welcome to my phone hunter
+        </h1>
+    </header>
+  
+    <main class="container">
+        <!-- input field -->
+     <section>
+        <div class="mb-3 w-50">
+       
+            <input type="email" class="form-control my-2" id="search-field" placeholder="Search Your phone">
+            <button class="btn btn-primary" id="button-field">search</button>
+          </div>
+     </section>
+        <!-- display result -->
+        <section>
+            <div id="phone-container"   class="row row-cols-1 row-cols-md-3 g-4">
+                 
+           </div>
+           <div id="no-found-message"class="d-none">
+            <h2 class="text-warning mt-4">No found message.please try a new search</h2>
+           </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- Bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <script src="js/phone.js"></script>
+</body>
+</html>
